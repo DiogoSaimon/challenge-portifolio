@@ -1,12 +1,20 @@
-/*CSS Reset / Normalize*/
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
+@import url('menu.css');
 
 :root{
-    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    /* Colors */
    --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
+   --cor-de-link: #464646;
+   --cor-de-botao-azul: #2A7AE4;
+
+
+    /* Sizes */
+   --size-gap-section: 2rem;
+   --size-horizontal-padding: 9.5rem
+
+   /* FontWeights */
+   --fontweight-regular: 400;
+   --fontweight-medium: 500;
+   --fontweight-bold: 700;
 }
 
 body {
@@ -17,15 +25,17 @@ body {
     padding: 0;
     line-height: 1;
 }
+
 ol, ul,li {
     list-style: none;
 }
+
 a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
 
-/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso seintam a vontade 
+/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso se sintam a vontade 
 de utiliza-la. 
 
 Mas o que é o BEM?
@@ -38,11 +48,6 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-/*Sessão Menu*/
-
-section.menu{
-
-}
 
 /*Sessão Title*/
 
@@ -80,51 +85,8 @@ section.formcontato{
 
 }
 
-/*footeer*/
+/*footer*/
 
 section.footer{
    
-}
-
-/* Chegou a hora de se desafiar com a responsividade, 
-utilize como referência os breakpoints @media abaixo*/
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menu */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Experiências acadêmicas*/
-
-/*Expeirência profissional*/
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
-
-/*Menu*/
-
-/*Titulo*/
-
-/*Sessão sobre*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formação Acadêmica*/
-
-/*Experiência Profissional*/
-
- /*Contato*/
-
-/*Footer*/
-
 }
