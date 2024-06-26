@@ -1,36 +1,46 @@
 @import url('menu.css');
-
-:root{
-    /* Colors */
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #464646;
-   --cor-de-botao-azul: #2A7AE4;
+@import url('presentation.css');
 
 
-    /* Sizes */
-   --size-gap-section: 2rem;
-   --size-horizontal-padding: 9.5rem
-
-   /* FontWeights */
-   --fontweight-regular: 400;
-   --fontweight-medium: 500;
-   --fontweight-bold: 700;
-}
-
-body {
+* {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
 }
 
-ol, ul,li {
+:root {
+    /* Colors */
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #464646;
+    --cor-de-botao-azul: #2A7AE4;
+    --cor-preto: #000;
+
+
+    /* Sizes */
+    --size-gap-section: 2rem;
+    --size-horizontal-padding: 9.5rem;
+
+    /* FontWeights */
+    --fontweight-regular: 400;
+    --fontweight-medium: 500;
+    --fontweight-bold: 700;
+}
+
+.all {
+    padding: 0 var(--size-horizontal-padding);
+    width: 100vw;
+}
+
+ol,
+ul,
+li {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
@@ -49,44 +59,44 @@ Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
 
-/*Sessão Title*/
-
-section.title{
-
-}
-
 /*Sessão About*/
 
-section.about{
-
-}
+section.about {}
 
 /*Sessão Hobbies*/
 
-section.hobbies{
-    
-}
+section.hobbies {}
 
 /* Experiência Acadêmica*/
 
-section.academic{
-
-}
+section.academic {}
 
 /* experiência*/
 
-section.experience{
-
-}
+section.experience {}
 
 /*Contato*/
 
-section.formcontato{
-
-}
+section.formcontato {}
 
 /*footer*/
 
-section.footer{
-   
+section.footer {}
+
+
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+    .all {
+        padding: 1rem 2rem 0 2rem;
+        width: 100vw;
+    }
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 668px) {
+    .all {
+        padding: 1rem 1rem 0 1rem;
+        width: 100vw;
+    }
 }
