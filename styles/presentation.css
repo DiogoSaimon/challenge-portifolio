@@ -1,0 +1,117 @@
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title__profile {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title__bio{
+    font-size: 3.25rem;
+    line-height: auto;
+    font-weight: var(--fontweight-bold);
+    color: var(--cor-de-link);
+    padding-bottom: 1.5rem;
+}
+
+.title__subsection{
+    font-size: 1.37rem;
+    line-height: auto;
+    font-weight: var(--fontweight-regular);
+    color: var(--cor-de-link);
+    padding-bottom: 1.5rem;
+}
+
+.title__network{
+    display: flex;
+}
+
+.title__network__item{
+    padding-right: var(--size-gap-section);
+    font-size: 1rem;
+    font-weight: var(--fontweight-medium);
+    color: var(--cor-de-link);
+}
+
+.title__network__item:hover{
+    font-weight: var(--fontweight-bold);
+}
+
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+
+    .title__div{
+        padding-bottom: 3rem;
+    }
+
+    .title__profile {
+        height: 30%;
+        width: 30%;
+    }
+
+    .title__bio{
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+    }
+
+    .title__subsection{
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+
+    .title__network__item{
+        padding-right: 1.5rem;
+        font-size: 1rem;
+        font-weight: var(--fontweight-bold);
+    }
+
+    #arrow{
+        display: none;
+    }
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 668px) {
+
+    .title__div{
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .title__profile {
+        height: 30%;
+        width: 30%;
+        padding-bottom: 1rem;
+    }
+
+    .title__bio{
+        font-size: 1.37rem;
+        padding-bottom: 1rem;
+    }
+
+    .title__subsection{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .title__network__item{
+        padding-right: 1.5rem;
+        font-size: 1rem;
+    }
+
+    #arrow{
+        display: none;
+    }
+}   
