@@ -1,0 +1,67 @@
+.about {
+    padding-top: 2rem;
+}
+
+.about__container {
+    width: 60vw;
+}
+
+.about__title {
+    font-size: 2rem;
+    font-weight: var(--fontweight-bold);
+    color: var(--cor-de-link);
+    padding-bottom: 1rem;
+}
+
+.about__paragraph {
+    font-size: 1rem;
+    font-weight: var(--fontweight-regular);
+    color: var(--cor-de-link);
+    padding-bottom: .8rem;
+}
+
+.about__assignature {
+    height: 10%;
+    width: 20%;
+    padding-bottom: 6rem;
+}
+
+
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+    .about {
+        padding-top: 1rem;
+    }
+
+    .about__container {
+        width: auto;
+    }
+
+    .about__title {
+        font-size: 1.37rem;
+    }
+
+    .about__paragraph {
+        font-size: .87rem;
+    }
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 668px) {
+    .about {
+        padding-top: 1rem;
+    }
+    
+    .about__container {
+        width: auto;
+    }
+
+    .about__title {
+        font-size: 1.37rem;
+    }
+
+    .about__paragraph {
+        font-size: .87rem;
+    }
+}
