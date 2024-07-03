@@ -1,6 +1,7 @@
 @import url('menu.css');
 @import url('presentation.css');
 @import url('about_me.css');
+@import url('skill_hobbies.css');
 
 
 * {
@@ -59,10 +60,6 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
 
-
-/*Sessão Hobbies*/
-
-section.hobbies {}
 
 /* Experiência Acadêmica*/
 
