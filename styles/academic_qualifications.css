@@ -13,7 +13,7 @@
 .academic__courses {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .academic__courses__box {
@@ -56,6 +56,7 @@
 
     .academic__courses{
         gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .academic__courses__box {

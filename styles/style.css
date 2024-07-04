@@ -3,6 +3,7 @@
 @import url('about_me.css');
 @import url('skill_hobbies.css');
 @import url('academic_qualifications.css');
+@import url('professional_experience.css');
 
 
 * {
@@ -29,6 +30,7 @@
     /* FontWeights */
     --fontweight-regular: 400;
     --fontweight-medium: 500;
+    --fontweight-semibold: 600;
     --fontweight-bold: 700;
 }
 
@@ -60,10 +62,6 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
-
-/* experiência*/
-
-section.experience {}
 
 /*Contato*/
 

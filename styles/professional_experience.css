@@ -1,0 +1,114 @@
+/* experiência*/
+
+.experience {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+
+.experience__section__title{
+    display: flex;
+    justify-content: center;
+    font-size: var(--size-gap-section);
+    font-weight: var(--fontweight-bold);
+    color: var(--cor-de-link);
+    padding-bottom: 4rem;
+}
+
+.experiencie__box{
+    display: flex;
+    gap: 1.62rem;
+}
+
+.experience__img{
+    width: 66%;
+    height: 25%;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience__title{
+    font-size: 1.37rem;
+    font-weight: var(--fontweight-bold);
+    color: var(--cor-de-link);
+    padding-bottom: .5rem;
+}
+
+.experience__text{
+    font-size: 1rem;
+    font-weight: var(--fontweight-medium);
+    color: var(--cor-de-link);
+    padding-bottom: .5rem;
+}
+
+.experience__description{
+    display: flex;
+    gap: 1rem;
+}
+
+.experiencia__botao--repo{
+    border: 1px solid var(--cor-de-botao-azul);
+    color: var(--cor-de-botao-azul);
+    font-size: 1rem;
+    font-weight: var(--fontweight-regular);
+    padding: 1rem;
+}
+
+.experiencia__botao--repo:hover{
+    background-color: #D4E4FA;
+}
+
+.experiencia__botao--demo{
+    border: 1px solid var(--cor-de-botao-azul);
+    background-color: var(--cor-de-botao-azul);
+    color: var(--cor-de-fundo);
+    font-size: 1rem;
+    font-weight: var(--fontweight-regular);
+    padding: 1rem;
+}
+
+.experiencia__botao--demo:hover{
+    background-color: #5595E9;
+}
+
+
+
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+    .experiencie__box{
+        display: block;
+    }
+
+    .experience__img{
+        width: 100%;
+        height: 25%;
+        padding-bottom: 1rem;
+    }
+
+    .experience__description{
+        padding-bottom: 1rem;
+    }
+
+    .experience__title{
+        font-size: 1rem;
+    }
+    
+    .experience__text{
+        font-size: .87rem;
+    }
+
+    .experiencia__botao--repo{
+        font-weight: var(--fontweight-semibold);
+        font-size: .87rem;
+        padding: .75rem 1rem;
+    }
+    
+    .experiencia__botao--demo{
+        font-weight: var(--fontweight-semibold);
+        font-size: .87rem;
+        padding: .75rem 1rem;
+    }
+}
