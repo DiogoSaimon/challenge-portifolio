@@ -2,6 +2,7 @@
 @import url('presentation.css');
 @import url('about_me.css');
 @import url('skill_hobbies.css');
+@import url('academic_qualifications.css');
 
 
 * {
@@ -59,11 +60,6 @@ de usuário complexa, e permite a reutilização de código existente sem copiar
 
 Link da documentação oficial!
 https://en.bem.info/methodology/quick-start/*/
-
-
-/* Experiência Acadêmica*/
-
-section.academic {}
 
 /* experiência*/
 
