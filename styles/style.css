@@ -4,6 +4,8 @@
 @import url('skill_hobbies.css');
 @import url('academic_qualifications.css');
 @import url('professional_experience.css');
+@import url('contact_form.css');
+@import url('footer.css');
 
 
 * {
@@ -21,6 +23,7 @@
     --cor-de-link: #464646;
     --cor-de-botao-azul: #2A7AE4;
     --cor-preto: #000;
+    --cor-cinza: #A2A2A2;
 
 
     /* Sizes */
@@ -49,27 +52,6 @@ a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
-
-/*Neste desafio, gostariamos que praticassem a metodologia BEM, caso se sintam a vontade 
-de utiliza-la. 
-
-Mas o que é o BEM?
-
-BEM (Block, Element, Modifier) ​​é uma abordagem baseada em componentes para o desenvolvimento
-web. A ideia por trás disso é dividir a interface do usuário em blocos independentes.
-Isso torna o desenvolvimento de interface fácil e rápido, mesmo com uma interface
-de usuário complexa, e permite a reutilização de código existente sem copiar e colar.
-
-Link da documentação oficial!
-https://en.bem.info/methodology/quick-start/*/
-
-/*Contato*/
-
-section.formcontato {}
-
-/*footer*/
-
-section.footer {}
 
 
 /*Tablet*/
