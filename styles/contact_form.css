@@ -1,0 +1,153 @@
+/*Contato*/
+
+.formcontato__contacto {
+  display: flex;
+  gap: 1rem;
+}
+
+.formcontato__img {
+  width: 32.22vw;
+}
+
+.formcontato__text {
+  width: 55%;
+  position: relative;
+}
+
+.formcontato__title {
+  font-size: var(--size-gap-section);
+  color: var(--cor-de-link);
+  font-weight: var(--fontweight-bold);
+  padding-bottom: 0.5rem;
+}
+
+.formcontato__subtext {
+  font-size: 1rem;
+  color: var(--cor-de-link);
+  font-weight: var(--fontweight-medium);
+  padding-bottom: 0.3rem;
+}
+
+.formcontato__form {
+  padding-top: var(--size-gap-section);
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-gap-section);
+}
+
+.formcontato__box {
+  display: flex;
+  flex-direction: column;
+  color: var(--cor-cinza);
+  font-size: 0.75rem;
+  font-weight: var(--fontweight-regular);
+}
+
+.formcontato__input,
+.formcontato__textarea {
+  border-style: none none solid none;
+  border-color: var(--cor-cinza);
+  border-width: 1px;
+  padding: 0.75rem 0.43rem;
+  font-size: 1rem;
+  font-weight: var(--fontweight-regular);
+  caret-color: var(--cor-de-botao-azul);
+}
+
+.formcontato__textarea {
+  max-height: 320px;
+  max-width: 100%;
+  text-wrap: wrap;
+}
+
+.formcontato__input:focus,
+.formcontato__textarea:focus {
+  outline: none;
+  border-color: var(--cor-de-botao-azul);
+  border-width: 2px;
+}
+
+label:has(+ .formcontato__input:focus),
+label:has(+ .formcontato__textarea:focus) {
+  color: var(--cor-de-botao-azul);
+}
+
+.formcontato__botao {
+  border: 1px solid var(--cor-de-botao-azul);
+  background: var(--cor-de-botao-azul);
+  color: var(--cor-de-fundo);
+  font-size: 1rem;
+  font-weight: var(--fontweight-regular);
+  padding: 1rem;
+  width: 25%;
+  position: absolute;
+    bottom: 5px;
+}
+
+.formcontato__botao:hover {
+  background-color: #5595e9;
+}
+
+/*Tablet*/
+@media screen and (max-width: 1024px) {
+
+    .formcontato{
+        padding-bottom: 2rem;
+    }
+
+    .formcontato__img{
+        display: none;
+    }
+
+    .formcontato__text{
+        width: 100%;
+    }
+
+    .formcontato__title{
+        font-size: 1.37rem;
+    }
+
+    .formcontato__subtext{
+        font-size: 1rem;
+    }
+
+    .formcontato__textarea{
+        width: 100%;
+    }
+
+    .formcontato__botao{
+        position: initial;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width: 668px) {
+    .formcontato{
+        padding-bottom: 2rem;
+    }
+    
+    .formcontato__img{
+        display: none;
+    }
+
+    .formcontato__text{
+        width: 100%;
+    }
+
+    .formcontato__title{
+        font-size: 1.37rem;
+    }
+
+    .formcontato__subtext{
+        font-size: 1rem;
+    }
+
+    .formcontato__textarea{
+        width: 100%;
+    }
+
+    .formcontato__botao{
+        width: 55%;
+        position: initial;
+    }
+}
