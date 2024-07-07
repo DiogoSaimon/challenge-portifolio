@@ -2,6 +2,7 @@
 .footer {
   padding: 2rem 0 2rem 0;
 }
+
 .footer__rodape {
   display: flex;
   flex-direction: column;
@@ -9,6 +10,7 @@
   align-items: center;
   gap: 0.5rem;
 }
+
 p {
   font-size: 1rem;
   font-weight: var(--fontweight-medium);

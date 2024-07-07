@@ -24,8 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 11rem;
-    height: 11rem;
+    padding: 2rem;
 }
 
 .skills__list,
@@ -49,9 +48,6 @@
     font-weight: var(--fontweight-bold);
     color: var(--cor-de-link);
 }
-
-
-
 
 
 /* Tablet */
