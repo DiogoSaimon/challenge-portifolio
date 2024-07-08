@@ -6,10 +6,16 @@
 
  Desafio de criar um portifólio pelo Bootcamp NEXT da Oracle/ Alura
 
+ <br>
+ <br>
+
 # Resumo do projeto
 Projeto finalizado. O Desafio era criar um projeto para uma página de portifólio do aluno.
 
 ![Desktop](https://github.com/DiogoSaimon/challenge-portifolio/assets/86212446/b4be6acf-4fa3-4666-8bf8-e078e0af12ad)
+
+
+
 
 ## Funcionalidades do projeto
 
@@ -32,6 +38,12 @@ Projeto finalizado. O Desafio era criar um projeto para uma página de portifól
 - Adicionar animações.
 - Adicionar adicionar enviar de email com as informações usadas na seção de contato.
 - Adicionar tema escuro.
+
+
+<br>
+<br>
+Acesse meu portifólio online: https://challenge-portifolio-dusky.vercel.app/
+
 
 
 ## Autor
