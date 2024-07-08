@@ -1,7 +1,10 @@
-# challenge-portifolio
+<div align='center'> 
+  <h1>Challenge Portifólio</h1>
+  <img src='https://github.com/DiogoSaimon/challenge-portifolio/assets/86212446/216b5924-396a-41ec-a42b-397c7d5853f5' alt='badge challenge portifolio ONE'>
+</div>
+
+
  Desafio de criar um portifólio pelo Bootcamp NEXT da Oracle/ Alura
-
-
 
 # Resumo do projeto
 Projeto finalizado. O Desafio era criar um projeto para uma página de portifólio do aluno.
