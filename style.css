@@ -1,11 +1,11 @@
-@import url('menu.css');
-@import url('presentation.css');
-@import url('about_me.css');
-@import url('skill_hobbies.css');
-@import url('academic_qualifications.css');
-@import url('professional_experience.css');
-@import url('contact_form.css');
-@import url('footer.css');
+@import url('./styles/menu.css');
+@import url('./styles/presentation.css');
+@import url('./styles/about_me.css');
+@import url('./styles/skill_hobbies.css');
+@import url('./styles/academic_qualifications.css');
+@import url('./styles/professional_experience.css');
+@import url('./styles/contact_form.css');
+@import url('./styles/footer.css');
 
 
 * {
